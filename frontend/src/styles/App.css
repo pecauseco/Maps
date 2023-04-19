@@ -1,0 +1,114 @@
+#root {
+  width: vw;
+  height: vh;
+  background-color: rgb(11, 53, 11);
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around
+}
+
+.controls-container {
+  flex-direction: column;
+  justify-content: left;
+  color:rgb(233, 247, 217);
+  width: 15%;
+  height: 100%;
+  margin-left: 5rem;
+}
+
+.map-container {
+  max-height: 100%;
+  width: 70%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:rgb(233, 247, 217);
+  width: 15%;
+  height: 100%;
+  margin-right: 5rem;
+}
+
+#h1 {
+  font-size: 1 rem;
+  margin: 0;
+  margin-block: 0;
+  padding-top: 0;
+}
+
+.control-panel{
+  height: 100%;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+  color:rgb(233, 247, 217)
+}
+
+.sub-panel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-button{
+  background-color: #282c34;
+  color: white;
+  border: 1% solid white;
+  border-radius: 5%;
+  padding: 3%;
+  margin: 3%;
+  height: 5vh;
+  width: 17vw;
+  font-size: 1.8vh;
+}
+
+.reset-button{
+  background-color: #a33db2;
+  color: white;
+  border: 1% solid white;
+  border-radius: 5%;
+  padding: 3%;
+  margin: 3%;
+  height: 5vh;
+  width: 17vw;
+  font-size: 1.8vh;
+}
+
+.input-box{
+  background-color: #6882b5;
+  color: white;
+  border: 1% solid white;
+  border-radius: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: 5vh;
+  width: 17vw;
+  font-size: 1.8vh;
+}
+
+.input-box::placeholder{
+  color: rgb(240, 253, 231);
+  text-align: center;
+}
+
+.input-button:hover{
+background-color: #394c74;
+}
+
+.reset-button:hover{
+background-color: #582d5d;
+}
