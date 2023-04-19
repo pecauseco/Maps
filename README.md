@@ -1,4 +1,4 @@
-Maps by Luke Briody and Charlie Levy
+Maps
 
 
 Welcome to our map program! This program utilizes a backend server that returns information regarding redlining data and sends it to the frontend where it is then displayed on a map, giving each redlining grade a different color. 
@@ -31,9 +31,9 @@ Program and Server:
 
 First, clone this repository onto the device you would like to use to run the program. This device needs to have Java and npm installed to run our program.
 
-../sprint-5-clevy9-lbriody/backend/src/main/java/edu/brown/cs/student/sprint5/server/main/Server.java. This will open a server, which is neccessary for the REPL program’s backend functionality.
+First run the server by running the file named server, which is neccessary for the REPL program’s backend functionality.
 
-Then, index into ../sprint-5-gclevy9-lbriody/frontend directory in the terminal. Run npm install, then run npm start. This will launch the REPL application at http://localhost:5173/. In that application, the user can input various commands into the input box, and then press the submit button or the enter key to run the command. The results will be displayed in the history box on the page. Below are the built in commands that can be run:
+Then, index into the front end. Run npm install, then run npm start. This will launch the REPL application at http://localhost:5173/. In that application, the user can input various commands into the input box, and then press the submit button or the enter key to run the command. The results will be displayed in the history box on the page. Below are the built in commands that can be run:
 
 Tests:
 Backend:
